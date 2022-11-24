@@ -1,4 +1,5 @@
 package banana;
+
 import java.util.Scanner;
 
 public class banana
@@ -16,7 +17,6 @@ public class banana
 
             int[][] coordinates = new int[2][slices];
             int[][] targets = new int[2][slices];
-            String temp;
 
             for (int x = 0; x < slices; x++)
             {
